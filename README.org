@@ -1,4 +1,4 @@
-* Simple-Asteroids
+* TODO Simple-Asteroids
 
 [[demonstration.gif]]
 
@@ -7,3 +7,28 @@ Simple asteroids game made with liballegro and common lisp.
 Install liballegro before you can launch it.
 
 It was tested only on SBCL
+
+----------------------------------------------------------------------------
+Above here from original author @ https://github.com/xFA25E/simple-asteroids
+All credits to them for original code and artwork.
+----------------------------------------------------------------------------
+
+2025-07-08T20:15-07:00
+
+I want to learn common lisp and am familiar with allegro.  I have done CL stuff before, but its been sporadic, and I am wanting to write a(nother) game using CL.  I figured I could use this as a base to implement some new features, which would allow me to both cement my CL knowledge, and help me work through allegro CL transitions (I used it when it was pre-1.x back in the early-mid 1990's).
+
+Besides, this is a pretty kewl version of asteroids.  Its just needs a few updates to be awesome IMO...
+
+As of 2025-07-08, this is what I want to do:
+
+- Process asteroids into 3 levels, such that when hitting biggest, it becomes 1-4 medium (with 1-2 normally, and 3-4 rarely).  Then medium does similar for small.
+
+- Replace background with black, and then some sort of spacey type background thats created on the fly.  Nice to put some random, background objects like planets or crashes or something, possibly in a gray color so as not to confuse against asteroids.  Coolest would be to fly around it as if it was a real scene.  Maybe randomly generate at each game start.
+
+- Add random alien ships.
+
+- Persist high scores.
+
+- Allow adding name/initials or something for high scores.
+
+
