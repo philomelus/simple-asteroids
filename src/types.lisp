@@ -37,12 +37,12 @@
 (defstruct (shot (:include moving-circular-resource) (:conc-name))
   (duration 0 :type duration))
 
-(defstruct (star (:include moving-point) (:conc-name))
-  (star-direction 0d0 :type radiants))
+(defstruct (star (:include moving-point))
+  (direction 0d0 :type radiants))
 
-(defstruct (explosion (:include point) (:conc-name))
-  (explosion-usedp nil :type boolean)
-  (explosion-duration 0 :type duration))
+(defstruct (explosion (:include point))
+  (usedp nil :type boolean)
+  (duration 0 :type duration))
 
 (defstruct (asteroid-initials (:conc-name asteroid-))
   (speed 0d0 :type display-float)

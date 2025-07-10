@@ -249,7 +249,8 @@
 (defvar *asteroid-initials*
   `#(,(make-asteroid-initials :speed 6d0 :radius 15d0 :frequency 60)
      ,(make-asteroid-initials :speed 3d0 :radius 30d0 :frequency 150)
-     ,(make-asteroid-initials :speed 1d0 :radius 45d0 :frequency 375)))
+     ,(make-asteroid-initials :speed 1d0 :radius 45d0 :frequency 375))
+  "All possible types of asteroids (as in, slot combinations).  No asteroids not specified here exist anywhere else.")
 
 ;;; RESOURCES
 
@@ -285,7 +286,7 @@
                    :y (random +display-height-d0+)
                    :dx (* +star-speed+ (cos direction))
                    :dy (* +star-speed+ (sin direction))
-                   :star-direction direction)))
+                   :direction direction)))
         :finally (return stars)))
 
 (defvar *explosions*
