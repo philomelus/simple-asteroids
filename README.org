@@ -31,4 +31,12 @@ As of 2025-07-08, this is what I want to do:
 
 - Allow adding name/initials or something for high scores.
 
+- Increase difficulty over time or over score.
+  -- Decrease length of bullet stream
+  -- Reduce bullet stream quantity
+  -- Increase number of asteroids
 
+----------------------------------------------------------------------------
+As of 2025-07-11T15:40-07:00 decided to start from scratch using the code
+from the original as a base.
+---------------------------------------------------------------------------
